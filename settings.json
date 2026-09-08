@@ -1,21 +1,21 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "uros2112",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
-    "version": "",
+    "ip": "urkki22-4AuH.aternos.me",
+    "port": 57751,
+    "version": "26.2",
     "try-creative": false
   },
   "position": {
     "enabled": true,
-    "x": 0,
-    "y": 100,
-    "z": 0
+    "x": 4477,
+    "y": 209,
+    "z": -4744
   },
   "utils": {
     "auto-auth": {
@@ -31,9 +31,9 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        ".",
+        ".",
+        "."
       ]
     },
     "chat-log": true,
@@ -42,11 +42,11 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
-      "enabled": true,
-      "radius": 4,
-      "speed": 3000
+      "enabled": false,
+      "radius": 0,
+      "speed": 0
     },
     "look-around": {
       "enabled": true,
@@ -58,14 +58,14 @@
     }
   },
   "modules": {
-    "avoidMobs": true,
-    "combat": true,
+    "avoidMobs": false,
+    "combat": false,
     "beds": false,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
+    "attack-mobs": false,
     "auto-eat": true
   },
   "beds": {
